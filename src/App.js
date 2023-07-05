@@ -8,20 +8,21 @@ import Resume from './Pages/Home/Resume';
 import Projects from './Pages/Home/Projects';
 import Contact from './Pages/Home/Contact';
 import About from './Pages/Home/About';
-import Blogs from './Pages/Home/Blogs';
+import Design from './Pages/Home/Design';
+
 
 function App() {
   return (
-    <div className="max-w-7xl mx-auto px-5">
+    <div className='bg-gray-900'>
       <Header></Header>
       <Routes>
         <Route path="/" element={<Portfolio />} />
-        <Route path="portfolio" element={<Portfolio />} />
+        <Route path="profile" element={<Portfolio />} />
         <Route path="resume" element={<Resume />} />
-        <Route path="projects" element={<Projects />} />
+        <Route path="project" element={<Projects />} />
+        <Route path="design" element={<Design />} />
         <Route path="contact" element={<Contact />} />
         <Route path="about" element={<About />} />
-        <Route path="blogs" element={<Blogs />} />
       </Routes>
 
     </div>

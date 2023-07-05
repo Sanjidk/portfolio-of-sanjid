@@ -1,12 +1,13 @@
 import React from 'react';
+import Footer from '../Shared/Footer';
 
 const Projects = () => {
     return (
-        <div className='my-2'>
-            <h1 className='font-bold text-center text-4xl mb-2'> All Projects </h1>
+        <div >
+            <h1 className='font-bold text-center text-slate-300 text-2xl lg:text-4xl lg:my-4'> PROJECT LIST </h1>
 
-            <div className='lg:flex gap-12 text-white'>
-                <div className="card w-96 bg-black shadow-xl mt-2">
+            <div className='lg:flex gap-8 text-white mx-2'>
+                <div className="card bg-black shadow-xl mt-2">
                     <figure className="px-10 pt-10">
                         <img src="https://img.freepik.com/free-psd/digital-device-screen-mockup-vector-with-laptop-smartphone-with-gradient-wallpapers_53876-129214.jpg?t=st=1654809778~exp=1654810378~hmac=e835e04546c1f2e13efba158ad5f8bf238472818c27db257423f9b1e51b2ac95&w=740" alt="Shoes" className="rounded-xl" />
                     </figure>
@@ -31,7 +32,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-black shadow-xl mt-2">
+                <div className="card bg-black shadow-xl mt-2">
                     <figure className="px-10 pt-10">
                         <img src="https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-19744.jpg?t=st=1654809588~exp=1654810188~hmac=f39697098a09bf83df17706964263654ee854235bcf5dab0fc028e8540fb0715&w=740" alt="Shoes" className="rounded-xl" />
                     </figure>
@@ -51,7 +52,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-black shadow-xl mt-2">
+                <div className="card bg-black shadow-xl mt-2">
                     <figure className="px-10 pt-10">
                         <img src="https://img.freepik.com/free-psd/frame-mockup-with-photography-concept_23-2147875339.jpg?t=st=1654809887~exp=1654810487~hmac=3b34233f5bd8e74f99d273e1d13b17c0a234cf7e8f6f3e781c0aa6b095cedd81&w=740" alt="Shoes" className="rounded-xl" />
                     </figure>
@@ -73,6 +74,7 @@ const Projects = () => {
                 </div>
 
             </div>
+            <Footer></Footer>
         </div>
     );
 };

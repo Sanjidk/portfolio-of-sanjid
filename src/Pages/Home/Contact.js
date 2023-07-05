@@ -1,17 +1,17 @@
 import React from 'react';
+import Footer from '../Shared/Footer';
 
 const Contact = () => {
     return (
         <div>
-            <div className="hero min-h-screen bg-black text-white">
-                <div className="hero-content flex-col lg:flex-row gap-20">
+            <div className="hero min-h-screen text-white">
+                <div className=" hero hero-content flex-col lg:flex-row gap-20">
                     <div>
                         <h1 className="text-4xl font-bold"> Contact Info </h1>
-                        <h1 className=" font-bold"> If anyone have any query, feel free to contact with me </h1>
-                        <h1 className="text-1xl font-bold"> Email: sanjidk24@gmail.com </h1>
-                        <h1 className="text-1xl font-bold"> Phone: 01580593250  </h1>
-                        <h1 className="text-1xl font-bold"> Github: https://github.com/Sanjidk </h1>
-                        <h1 className="text-1xl font-bold"> Linkedin: https://www.linkedin.com/in/md-mahmud-sanjid/ </h1>
+                        <h1 className="text-1xl"> <span className="font-bold">Email: </span> mahmud.sanjid10@gmail.com </h1>
+                        <h1 className="text-1xl"> <span className="font-bold">Phone: </span>  01580593250  </h1>
+                        <h1 className="text-1xl"> <span className="font-bold">Github: </span>  https://github.com/Sanjidk </h1>
+                        <h1 className="text-1xl"> <span className="font-bold">Linkedin:  </span> https://www.linkedin.com/in/mahmud-sanjid/ </h1>
                     </div>
 
 
@@ -39,7 +39,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-
+<Footer></Footer>
         </div>
     );
 };
